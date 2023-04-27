@@ -1,0 +1,46 @@
+# README
+
+## Instructions for Compiling and Running the Recipe Application
+
+### Prerequisites
+
+To compile and run the Recipe Application, you need to have the following installed on your computer:
+
+- .NET Framework SDK
+- A text editor or an integrated development environment (IDE) such as Visual Studio Code or Visual Studio
+
+### Compiling the Recipe Application
+
+1. Open your text editor or IDE and create a new file.
+2. Copy and paste the code for the Recipe Application into the new file.
+3. Save the file with a `.cs` extension, for example `Recipe.cs`.
+4. Open a command prompt or terminal and navigate to the directory where you saved the file.
+5. Compile the file by running the following command:
+
+```
+csc Recipe.cs
+```
+
+### Running the Recipe Application
+
+1. After successfully compiling the application, run the following command in the command prompt or terminal:
+
+```
+Recipe.exe
+```
+
+2. The application will display a menu of options:
+
+```
+Enter '1' to enter recipe details
+Enter '2' to display recipe
+Enter '3' to scale recipe
+Enter '4' to reset quantities
+Enter '5' to clear recipe
+Enter '6' to exit
+```
+
+3. Choose an option by entering the corresponding number and pressing Enter.
+4. Follow the prompts to enter or manipulate recipe details as desired.
+
+Note: If you encounter any errors during compilation or execution, please refer to the .NET Framework documentation or seek further assistance.
